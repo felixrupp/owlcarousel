@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-02-08T19:32:27Z" product-name="owlcarousel">
+		<header/>
+		<body>
+            <trans-unit id="owlcarousel_carousel_pluginWizardTitle">
+                <target>Owl Carousel</target>
+            </trans-unit>
+            <trans-unit id="owlcarousel_carousel_pluginWizardDescription">
+                <target>Fügt ein Owl Carousel hinzu</target>
+            </trans-unit>
+            <trans-unit id="owlcarousel_content_pluginWizardTitle">
+                <target>Owl Carousel Content Slider</target>
+            </trans-unit>
+            <trans-unit id="owlcarousel_content_pluginWizardDescription">
+                <target>Fügt ein Owl Carousel Content Slider hinzu</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

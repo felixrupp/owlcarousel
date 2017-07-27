@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-02-08T19:32:27Z" product-name="owlcarousel">
+		<header/>
+		<body>
+			<trans-unit id="tab.general">
+				<source>General</source>
+			</trans-unit>
+			<trans-unit id="tab.responsive">
+				<source>Responsive</source>
+			</trans-unit>
+            <trans-unit id="tab.options">
+                <source>Options</source>
+            </trans-unit>
+            <trans-unit id="tab.template">
+                <source>Template</source>
+            </trans-unit>
+
+			<trans-unit id="images">
+				<source>Images</source>
+			</trans-unit>
+			<trans-unit id="createNewRelationLinkTitle">
+				<source>Add slide</source>
+			</trans-unit>
+
+			<trans-unit id="navSpeed">
+				<source>Slide speed</source>
+			</trans-unit>
+			<trans-unit id="dotsSpeed">
+				<source>Pagination speed</source>
+			</trans-unit>
+			<trans-unit id="autoplay">
+				<source>Autoplay?</source>
+			</trans-unit>
+            <trans-unit id="autoplayHoverPause">
+                <source>Stop on hover?</source>
+            </trans-unit>
+            <trans-unit id="autoplayTimeout">
+                <source>Autoplay interval timeout</source>
+            </trans-unit>
+            <trans-unit id="nav">
+                <source>Show navigation?</source>
+            </trans-unit>
+            <trans-unit id="dots">
+                <source>Show dots?</source>
+            </trans-unit>
+			<trans-unit id="loop">
+				<source>Loop?</source>
+			</trans-unit>
+            <trans-unit id="items">
+                <source><![CDATA[Show Items (≥1200px)]]></source>
+            </trans-unit>
+            <trans-unit id="slideBy">
+                <source>Navigation slide by items</source>
+            </trans-unit>
+			<trans-unit id="animateOut">
+				<source>Fade instead slide? (experimental!)</source>
+			</trans-unit>
+			<trans-unit id="height">
+				<source>Height</source>
+			</trans-unit>
+            <trans-unit id="startPosition">
+                <source>Start position</source>
+            </trans-unit>
+
+            <trans-unit id="slideItems">
+                <source>Items</source>
+            </trans-unit>
+            <trans-unit id="margin">
+                <source>Margin</source>
+            </trans-unit>
+            <trans-unit id="responsive">
+                <source>Responsive</source>
+            </trans-unit>
+            <trans-unit id="items992">
+                <source><![CDATA[Show Items (≥992px)]]></source>
+            </trans-unit>
+            <trans-unit id="items768">
+                <source><![CDATA[Show Items (≥768px)]]></source>
+            </trans-unit>
+            <trans-unit id="items0">
+                <source><![CDATA[Show Items (<768px)]]></source>
+            </trans-unit>
+
+            <trans-unit id="templateLayout">
+                <source>Template</source>
+            </trans-unit>
+            <trans-unit id="pages">
+                <source>Pages</source>
+            </trans-unit>
+            <trans-unit id="autoWidth">
+                <source>Auto width?</source>
+            </trans-unit>
+            <trans-unit id="mouseDrag">
+                <source>Mouse drag?</source>
+            </trans-unit>
+            <trans-unit id="touchDrag">
+                <source>Touch drag?</source>
+            </trans-unit>
+            <trans-unit id="pullDrag">
+                <source>Pull drag?</source>
+            </trans-unit>
+            <trans-unit id="freeDrag">
+                <source>Free drag?</source>
+            </trans-unit>
+            <trans-unit id="dotsEach">
+                <source>Show dots each x item (currenty without function!)</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

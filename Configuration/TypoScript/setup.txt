@@ -1,0 +1,18 @@
+plugin.tx_owlcarousel {
+	view {
+		templateRootPath = {$plugin.tx_owlcarousel.view.templateRootPath}
+		partialRootPath = {$plugin.tx_owlcarousel.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_owlcarousel.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_owlcarousel.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+	settings {
+		addJquery = {$plugin.tx_owlcarousel.settings.addJquery}
+		addToFooter = {$plugin.tx_owlcarousel.settings.addToFooter}
+	}
+}

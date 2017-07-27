@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-02-08T19:32:27Z" product-name="owlcarousel">
+		<header/>
+		<body>
+            <trans-unit id="prev">
+                <target><![CDATA[<i class="fa fa-angle-left"></i>]]></target>
+            </trans-unit>
+            <trans-unit id="next">
+                <target><![CDATA[<i class="fa fa-angle-right"></i>]]></target>
+            </trans-unit>
+            <trans-unit id="prevContent">
+                <target>zurück</target>
+            </trans-unit>
+            <trans-unit id="nextContent">
+                <target>vor</target>
+            </trans-unit>
+			<trans-unit id="addJquery">
+				<target>jQuery einbinden</target>
+			</trans-unit>
+			<trans-unit id="addJsToFooter">
+				<target>JavaScript in den Footer auslagern</target>
+			</trans-unit>
+            <trans-unit id="more">
+                <target>Mehr Informationen</target>
+            </trans-unit>
+
+            <trans-unit id="information">
+                <target>Information</target>
+            </trans-unit>
+            <trans-unit id="informationText">
+                <target>Bitte mindestens einen Storage Folder auswählen</target>
+            </trans-unit>
+            <trans-unit id="warning">
+                <target>Warnung</target>
+            </trans-unit>
+            <trans-unit id="warningText">
+                <target>Es sind keine Slider Elemente verfügbar</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

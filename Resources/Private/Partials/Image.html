@@ -1,0 +1,11 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+
+<v:if stack="{0: item.width, 1: 'OR', 2: item.height}">
+    <v:variable.set name="class" value=" img-carousel" />
+</v:if>
+
+<f:if condition="{item.crop} == 1">
+    <v:variable.set name="crop" value="c" />
+</f:if>
+
+<f:image src="{item.image.uid}" alt="{item.image.originalResource.title}" treatIdAsReference="1" class="img-responsive{class}" width="{item.width}{crop}" height="{item.height}{crop}" />

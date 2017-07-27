@@ -1,0 +1,29 @@
+.owl-theme .owl-controls .owl-nav .owl-prev,
+.owl-theme .owl-controls .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	font-size: 36px;
+	margin: 0;
+	margin-top: -50px;
+}
+
+.owl-theme .owl-controls .owl-nav .owl-prev {
+	left: 0;
+	padding: 12px 24px 12px 20px;
+	margin-left: 10px;
+}
+
+.owl-theme .owl-controls .owl-nav .owl-next {
+	right: 0;
+	padding: 12px 20px 12px 24px;
+	margin-right: 10px;
+}
+
+.owlcarousel-single img {
+    width: 100%;
+}
+
+div .owl-carousel .owl-item img {
+    transform-style: flat;
+    -webkit-transform-style: flat;
+}

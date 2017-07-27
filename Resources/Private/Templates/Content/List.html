@@ -1,0 +1,65 @@
+{namespace owl=RZ\Owlcarousel\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+
+<v:asset.style path="EXT:owlcarousel/Resources/Public/Js/owl.carousel/assets/owl.carousel.css" />
+<v:asset.style path="EXT:owlcarousel/Resources/Public/Js/owl.carousel/assets/owl.theme.default.min.css" />
+<v:asset.style path="EXT:owlcarousel/Resources/Public/Css/owlcarousel_content.css" />
+
+<v:variable.set name="flashMessages" value='<f:flashMessages renderMode="div" />' />
+<f:format.raw>{flashMessages}</f:format.raw>
+
+<f:if condition="{flashMessages} == ''">
+    <v:variable.set name="prevNext" value="{0: '{f:translate(key: \'prevContent\')}', 1: '{f:translate(key: \'nextContent\')}'}" />
+
+    <owl:js settings="{settings}" prevNext="{prevNext}" uid="{uid}" selector=".owl-carousel-content-{uid}" />
+
+    <div class="owl-carousel-content owl-carousel-content-{uid}">
+        <f:for each="{items}" as="item">
+            <f:if condition="{settings.autoWidth}">
+                <f:then>
+                    <v:variable.set name="itemStyle" value=' style="width: {item.autowidth}px;"' /> 
+                </f:then>
+                <f:else>
+                    <v:variable.set name="itemStyle" value="" />  
+                </f:else>
+            </f:if>
+
+            <div class="item"{f:format.raw(value: itemStyle)}>
+                <h3>{item.title}</h3>
+
+                <f:if condition="{item.image}">
+                    <f:if condition="{item.link}">
+                        <f:then>
+                            <v:link.typolink configuration="{parameter: item.link}">
+                                <f:render partial="Image" arguments="{item: item}" />
+                            </v:link.typolink>
+                        </f:then>
+                        <f:else>
+                            <f:render partial="Image" arguments="{item: item}" />
+                        </f:else>
+                    </f:if>
+                </f:if>
+
+                <f:if condition="{item.description}">
+                    <div class="description">
+                        <f:format.html>{item.description}</f:format.html>
+                    </div>
+                </f:if>
+        
+                <f:if condition="{item.content}">
+                    <v:variable.set name="contentElements" value='<owl:toArray string="{item.content}" />' />
+
+                    <f:for each="{contentElements}" as="contentElement">
+                        <owl:content.render uid="{contentElement}" />
+                    </f:for>
+                </f:if>
+
+                <f:if condition="{item.link}">
+                    <v:link.typolink configuration="{parameter: item.link, ATagParams: 'class=\"btn btn-primary\"'}">
+                        <f:translate key="more" /> <i class="fa fa-angle-right"></i>
+                    </v:link.typolink>
+                </f:if>
+            </div>
+        </f:for>
+    </div>
+</f:if>

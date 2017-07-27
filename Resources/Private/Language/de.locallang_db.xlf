@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-01-20T19:34:09Z" product-name="owlcarousel">
+        <header/>
+        <body>
+            <trans-unit id="tx_owlcarousel_domain_model_items">
+                <target>Slide</target>
+            </trans-unit>
+            <trans-unit id="plugin_desc1">
+                <target>Owl Carousel</target>
+            </trans-unit>
+            <trans-unit id="plugin_desc2">
+                <target>Content Slider</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.title">
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.description">
+                <target>Beschreibung</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.image">
+                <target>Bild</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.width">
+                <target>Breite</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.autowidth">
+                <target>Breite für automatische Breite</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.height">
+                <target>Höhe</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.crop">
+                <target>Beschneiden?</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.link">
+                <target>Link</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.content">
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.tabs.general">
+                <target>Allgemein</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.tabs.image">
+                <target>Bild</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.tabs.content">
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="tx_owlcarousel_domain_model_items.tabs.options">
+                <target>Optionen</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

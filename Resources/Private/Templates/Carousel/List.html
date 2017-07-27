@@ -1,0 +1,32 @@
+{namespace owl=RZ\Owlcarousel\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+
+<f:if condition="{images -> f:count()} > 1">
+    <v:asset.style path="EXT:owlcarousel/Resources/Public/Js/owl.carousel/assets/owl.carousel.css" />
+    <v:asset.style path="EXT:owlcarousel/Resources/Public/Js/owl.carousel/assets/owl.theme.default.min.css" />
+</f:if>
+
+<v:asset.style path="typo3conf/ext/owlcarousel/Resources/Public/Css/owlcarousel.css" />
+
+<v:variable.set name="prevNext" value="{0: '{f:translate(key: \'prev\')}', 1: '{f:translate(key: \'next\')}'}" />
+
+<v:if stack="{0: imageCount, 1: '>', 2: '1'}">
+    <f:then>
+        <owl:js settings="{settings}" prevNext="{prevNext}" uid="{uid}" selector="#owl-carousel-{uid}" />
+
+        <div id="owl-carousel-{uid}" class="owl-carousel">
+            <f:for each="{images}" as="image" iteration="itemIteration">
+                <div>
+                    <owl:media.image src="{image.reference.uid}" alt="" treatIdAsReference="1" />
+                </div>
+            </f:for>
+        </div>
+    </f:then>
+    <f:else>
+        <div class="owlcarousel-single">
+            <f:for each="{images}" as="image" iteration="itemIteration">
+                <owl:media.image src="{image.reference.uid}" alt="" treatIdAsReference="1" class="img-responsive" />
+            </f:for>
+        </div>
+    </f:else>
+</v:if>

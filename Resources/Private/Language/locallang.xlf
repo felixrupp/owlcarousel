@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-02-08T19:32:27Z" product-name="owlcarousel">
+		<header/>
+		<body>
+			<trans-unit id="prev">
+				<source><![CDATA[<i class="fa fa-angle-left"></i>]]></source>
+			</trans-unit>
+			<trans-unit id="next">
+				<source><![CDATA[<i class="fa fa-angle-right"></i>]]></source>
+			</trans-unit>
+            <trans-unit id="prevContent">
+                <source>prev</source>
+            </trans-unit>
+            <trans-unit id="nextContent">
+                <source>next</source>
+            </trans-unit>
+			<trans-unit id="addJquery">
+				<source>Add jQuery</source>
+			</trans-unit>
+            <trans-unit id="addJsToFooter">
+                <source>Add JavaScript to footer</source>
+            </trans-unit>
+            <trans-unit id="more">
+                <source>Read more</source>
+            </trans-unit>
+
+            <trans-unit id="information">
+                <source>Information</source>
+            </trans-unit>
+            <trans-unit id="informationText">
+                <source>Please select at least one storage folder</source>
+            </trans-unit>
+            <trans-unit id="warning">
+                <source>Warning</source>
+            </trans-unit>
+            <trans-unit id="warningText">
+                <source>There are no slide items available</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

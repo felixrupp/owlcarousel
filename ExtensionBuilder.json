@@ -1,0 +1,87 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    74,
+                    98
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Carousel",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "60977829273"
+                },
+                "propertyGroup": {
+                    "properties": []
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Inserts the Owl Carousel",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": "0.0.1"
+        },
+        "extensionKey": "owlcarousel",
+        "name": "Owl Carousel",
+        "originalExtensionKey": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "rafu1987@gmail.com",
+                "name": "Raphael Zschorsch",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Carousel => list",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "carousel",
+                "name": "Carousel"
+            }
+        ],
+        "vendorName": "RZ"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2015-02-08 07:32",
+        "extension_builder_version": "6.2.0",
+        "be_user": "Raphael Zschorsch (1)"
+    }
+}

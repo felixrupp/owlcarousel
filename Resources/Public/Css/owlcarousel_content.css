@@ -1,0 +1,35 @@
+.owl-carousel-content .description {
+    margin: 10px 0;
+}
+
+.owl-carousel .owl-item img.img-carousel {
+    width: auto;
+}
+
+.typo3-message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.typo3-message.message-information {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.typo3-message.message-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.typo3-message .message-header {
+    font-weight: bold;
+}
+
+div .owl-carousel .owl-item img {
+    transform-style: flat;
+    -webkit-transform-style: flat;
+}

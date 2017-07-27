@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-02-08T19:32:27Z" product-name="owlcarousel">
+		<header/>
+		<body>
+			<trans-unit id="tab.general">
+				<target>Allgemein</target>
+			</trans-unit>
+			<trans-unit id="tab.options">
+				<target>Optionen</target>
+			</trans-unit>
+            <trans-unit id="tab.responsive">
+                <target>Responsive</target>
+            </trans-unit>
+            <trans-unit id="tab.template">
+                <target>Template</target>
+            </trans-unit>
+            
+			<trans-unit id="images">
+				<target>Bilder</target>
+			</trans-unit>
+			<trans-unit id="createNewRelationLinkTitle">
+				<target>Slide hinzufügen</target>
+			</trans-unit>
+
+			<trans-unit id="navSpeed">
+				<target>Slide Geschwindigkeit</target>
+			</trans-unit>
+			<trans-unit id="dotsSpeed">
+				<target>Pagination Geschwindigkeit</target>
+			</trans-unit>
+			<trans-unit id="autoplay">
+				<target>Autoplay?</target>
+			</trans-unit>
+			<trans-unit id="autoplayHoverPause">
+				<target>Bei Hover anhalten?</target>
+			</trans-unit>
+            <trans-unit id="autoplayTimeout">
+                <target>Autoplay Verzögerung</target>
+            </trans-unit>
+			<trans-unit id="nav">
+				<target>Navigation anzeigen?</target>
+			</trans-unit>
+            <trans-unit id="dots">
+                <target>Punkte anzeigen?</target>
+            </trans-unit>
+			<trans-unit id="loop">
+				<target>Loop?</target>
+			</trans-unit>
+			<trans-unit id="items">
+				<target><![CDATA[Elemente anzeigen (≥1200px)]]></target>
+			</trans-unit>
+            <trans-unit id="slideBy">
+                <target>Anzahl Elemente bei Slide</target>
+            </trans-unit>
+			<trans-unit id="animateOut">
+				<target>Fade statt Slide? (experimentell!)</target>
+			</trans-unit>
+			<trans-unit id="height">
+				<target>Höhe</target>
+			</trans-unit>
+            <trans-unit id="startPosition">
+                <target>Start Position</target>
+            </trans-unit>
+
+            <trans-unit id="slideItems">
+                <target>Elemente</target>
+            </trans-unit>
+            <trans-unit id="margin">
+                <target>Margin</target>
+            </trans-unit>
+            <trans-unit id="responsive">
+                <target>Responsive</target>
+            </trans-unit>
+            <trans-unit id="items992">
+                <target><![CDATA[Elemente anzeigen (≥992px)]]></target>
+            </trans-unit>
+            <trans-unit id="items768">
+                <target><![CDATA[Elemente anzeigen (≥768px)]]></target>
+            </trans-unit>
+            <trans-unit id="items0">
+                <target><![CDATA[Elemente anzeigen (<768px)]]></target>
+            </trans-unit>
+
+            <trans-unit id="templateLayout">
+                <target>Template</target>
+            </trans-unit>
+            <trans-unit id="pages">
+                <target>Seiten</target>
+            </trans-unit>
+            <trans-unit id="autoWidth">
+                <target>Automatische Breite?</target>
+            </trans-unit>
+            <trans-unit id="mouseDrag">
+                <target>Maus ziehen?</target>
+            </trans-unit>
+            <trans-unit id="touchDrag">
+                <target>Touch ziehen?</target>
+            </trans-unit>
+            <trans-unit id="pullDrag">
+                <target>Pull ziehen?</target>
+            </trans-unit>
+            <trans-unit id="freeDrag">
+                <target>Freies ziehen?</target>
+            </trans-unit>
+            <trans-unit id="dotsEach">
+                <target>Punkte für jedes x Element anzeigen (momentan ohne Funktion!)</target>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
